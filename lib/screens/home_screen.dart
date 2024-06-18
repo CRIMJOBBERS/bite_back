@@ -53,6 +53,7 @@ class HomeScreen extends StatelessWidget {
                     icon: const Icon(Icons.shopping_cart),
                     onPressed: () {
                       // Handle shopping cart
+                      Navigator.pushNamed(context, '/requests');
                     },
                   ),
                 ],
@@ -68,10 +69,10 @@ class HomeScreen extends StatelessWidget {
               shrinkWrap: true,
               crossAxisCount: 2,
               children: <Widget>[
-                _buildGridItem('assets/food1.png', 'Food Item 1'),
-                _buildGridItem('assets/food2.png', 'Food Item 2'),
-                _buildGridItem('assets/food3.png', 'Food Item 3'),
-                _buildGridItem('assets/food4.png', 'Food Item 4'),
+                _buildGridItem('assets/food9.jpg', 'Food Item 1'),
+                _buildGridItem('assets/food10.jpg', 'Food Item 2'),
+                _buildGridItem('assets/food11.jpg', 'Food Item 3'),
+                _buildGridItem('assets/food12.jpg', 'Food Item 4'),
               ],
             ),
             const SizedBox(height: 10),
@@ -84,8 +85,8 @@ class HomeScreen extends StatelessWidget {
               shrinkWrap: true,
               crossAxisCount: 2,
               children: <Widget>[
-                _buildGridItem('assets/food5.png', 'Food Waste 1'),
-                _buildGridItem('assets/food6.png', 'Food Waste 2'),
+                _buildGridItem('assets/food13.jpg', 'Food Waste 1'),
+                _buildGridItem('assets/food14.jpg', 'Food Waste 2'),
               ],
             ),
             const SizedBox(height: 10),
@@ -98,12 +99,12 @@ class HomeScreen extends StatelessWidget {
               shrinkWrap: true,
               crossAxisCount: 3,
               children: <Widget>[
-                _buildGridItem('assets/supply1.png', 'Ishaka'),
-                _buildGridItem('assets/supply2.png', 'Mbarara'),
-                _buildGridItem('assets/supply3.png', 'Mbale'),
-                _buildGridItem('assets/supply4.png', 'Jinja'),
-                _buildGridItem('assets/supply5.png', 'Central'),
-                _buildGridItem('assets/supply6.png', 'Lugogo'),
+                _buildGridItem('assets/supply1.jpg', 'Ishaka'),
+                _buildGridItem('assets/supply2.jpg', 'Mbarara'),
+                _buildGridItem('assets/supply3.jpg', 'Mbale'),
+                _buildGridItem('assets/supply4.jpg', 'Jinja'),
+                _buildGridItem('assets/supply5.jpg', 'Central'),
+                _buildGridItem('assets/supply6.jpg', 'Lugogo'),
               ],
             ),
           ],
