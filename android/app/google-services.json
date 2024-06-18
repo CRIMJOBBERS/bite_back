@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435281337134",
+    "project_id": "biteback-102b7",
+    "storage_bucket": "biteback-102b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435281337134:android:65b67a18631a2779b738bf",
+        "android_client_info": {
+          "package_name": "com.crimsoft.biteback"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIqbkdPaLBUjt5ICL3CgeGJ4bhrycu60k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
